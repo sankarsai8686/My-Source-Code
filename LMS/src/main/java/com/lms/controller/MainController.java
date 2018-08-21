@@ -28,7 +28,7 @@ public class MainController
 	@Autowired
 	private LmsService lmsService;
 	
-	@GetMapping(value="/")
+	@GetMapping(value= {"/","/home"})
 	public String init(HttpServletRequest req)
 	{
 		req.setAttribute("books", lmsService.findAllBooks());
@@ -71,19 +71,20 @@ public class MainController
 		}
 	}
 	
-	
+	//https://web.archive.org/web/20171125150757/http://codetutr.com/2013/05/28/spring-mvc-form-validation/
 	@PostMapping(value="/saveBook")
-	public void save(@ModelAttribute Book book,HttpServletRequest req,BindingResult bindingresult,HttpServletResponse res) throws IOException
+	public void save(@ModelAttribute Book book,BindingResult bindingresult,HttpServletRequest req,HttpServletResponse res) throws IOException
 	{
 		System.out.println("saveBook");
 		lmsService.save(book);
+		System.out.println("saveBook 1");
 		req.setAttribute("books", lmsService.findAllBooks());
 		req.setAttribute("mode", "BOOK_VIEW");
 		res.sendRedirect("/");
 	}
 	
 	@GetMapping("/newBook")
-	public String newBook(HttpServletRequest req,HttpServletResponse res)
+	public String newBook(HttpServletRequest req)
 	{
 		System.out.println("newBook");
 		req.setAttribute("mode", "BOOK_NEW");
