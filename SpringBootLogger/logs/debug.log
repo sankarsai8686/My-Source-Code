@@ -1,0 +1,11 @@
+2018-08-25 22:36:08 [main] INFO  c.S.SpringBootLoggerApplication - Starting SpringBootLoggerApplication on DESKTOP-QS6VIUV with PID 4112 (E:\Spring_Practise\SpringBootLogger\target\classes started by SANKAR in E:\Spring_Practise\SpringBootLogger)
+2018-08-25 22:36:08 [main] DEBUG c.S.SpringBootLoggerApplication - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2018-08-25 22:36:08 [main] INFO  c.S.SpringBootLoggerApplication - No active profile set, falling back to default profiles: default
+2018-08-25 22:36:44 [main] INFO  c.S.SpringBootLoggerApplication - Starting SpringBootLoggerApplication on DESKTOP-QS6VIUV with PID 13320 (E:\Spring_Practise\SpringBootLogger\target\classes started by SANKAR in E:\Spring_Practise\SpringBootLogger)
+2018-08-25 22:36:44 [main] DEBUG c.S.SpringBootLoggerApplication - Running with Spring Boot v1.4.0.RELEASE, Spring v4.3.2.RELEASE
+2018-08-25 22:36:44 [main] INFO  c.S.SpringBootLoggerApplication - No active profile set, falling back to default profiles: default
+2018-08-25 22:36:47 [main] INFO  c.S.SpringBootLoggerApplication - Started SpringBootLoggerApplication in 3.36 seconds (JVM running for 4.647)
+2018-08-25 22:36:47 [main] ERROR c.S.SpringBootLoggerApplication - Message logged at ERROR level
+2018-08-25 22:36:47 [main] WARN  c.S.SpringBootLoggerApplication - Message logged at WARN level
+2018-08-25 22:36:47 [main] INFO  c.S.SpringBootLoggerApplication - Message logged at INFO level
+2018-08-25 22:36:47 [main] DEBUG c.S.SpringBootLoggerApplication - Message logged at DEBUG level

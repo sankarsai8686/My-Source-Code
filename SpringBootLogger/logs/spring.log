@@ -1,0 +1,29 @@
+2018-08-25 22:16:00 [main] INFO  c.S.SpringBootLoggerApplication - Starting SpringBootLoggerApplication on DESKTOP-QS6VIUV with PID 5632 (E:\Spring_Practise\SpringBootLogger\target\classes started by SANKAR in E:\Spring_Practise\SpringBootLogger)
+2018-08-25 22:16:00 [main] INFO  c.S.SpringBootLoggerApplication - No active profile set, falling back to default profiles: default
+2018-08-25 22:16:01 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@417213: startup date [Sat Aug 25 22:16:01 IST 2018]; root of context hierarchy
+2018-08-25 22:16:02 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 7575 (http)
+2018-08-25 22:16:02 [main] INFO  o.a.catalina.core.StandardService - Starting service Tomcat
+2018-08-25 22:16:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.4
+2018-08-25 22:16:03 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-08-25 22:16:03 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1943 ms
+2018-08-25 22:16:03 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2018-08-25 22:16:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-08-25 22:16:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-08-25 22:16:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-08-25 22:16:03 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-08-25 22:16:03 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@417213: startup date [Sat Aug 25 22:16:01 IST 2018]; root of context hierarchy
+2018-08-25 22:16:03 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/],methods=[GET]}" onto public java.lang.String com.SpringBoot.SpringBootLoggerApplication.welcome()
+2018-08-25 22:16:03 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-25 22:16:03 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-25 22:16:03 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-25 22:16:03 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-25 22:16:03 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-25 22:16:04 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-08-25 22:16:04 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 7575 (http)
+2018-08-25 22:16:04 [main] INFO  c.S.SpringBootLoggerApplication - Started SpringBootLoggerApplication in 3.883 seconds (JVM running for 5.367)
+2018-08-25 22:16:04 [main] ERROR c.S.SpringBootLoggerApplication - Message logged at ERROR level
+2018-08-25 22:16:04 [main] WARN  c.S.SpringBootLoggerApplication - Message logged at WARN level
+2018-08-25 22:16:04 [main] INFO  c.S.SpringBootLoggerApplication - Message logged at INFO level
+2018-08-25 22:21:21 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2018-08-25 22:21:21 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@417213: startup date [Sat Aug 25 22:16:01 IST 2018]; root of context hierarchy
+2018-08-25 22:21:21 [RMI TCP Connection(2)-127.0.0.1] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
